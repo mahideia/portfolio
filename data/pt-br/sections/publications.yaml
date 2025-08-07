@@ -10,73 +10,112 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: Todas
+  filter: "todos"
+- name: "Mudanças Climáticas"
+  filter: "mudancas-climaticas"
+- name: "Tecnologia"
+  filter: "tecnologia"
+- name: "Sociedade"
+  filter: "sociedade"
+
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
 
-- title: An Sample Paper on Image Processing
+- title: Onde estão os dados da Comunidade LGBTQIAP+? - BDletter 42
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: BD Letter
+    date: 1 Julho 2025
+    url: https://basedosdados.org/blog/
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+  - name: Marina Monteiro
+  - name: Thais Filipi
+  - name: Giovane Caruso
 
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: Até agora, o IBGE levantou dados apenas sobre orientação sexual (em 2019 com a PNS), sem coletar informações sobre identidade de gênero nos censos, e os novos módulos de 2023/2024 ainda não têm resultados publicados. Assim, a principal fonte de informações sobre a comunidade LGBTQIAP+ no Brasil hoje vem de pesquisas independentes, ONGs e universidades, com estimativas que variam de 3 milhões (PNS) a mais de 15–20 milhões de pessoas.
+  url: https://basedosdados.org/blog/bdletter-42-onde-estao-os-dados-da-comunidade-lgbtqiap
+  categories: ["sociedade"]
+  tags: ["Dados", "Jornalismo de Dados", "Sociedade"]
+  
+
+- title: O fim da escala 6x1 afetaria a rotina de quantas pessoas? - BDletter 41
+  publishedIn:
+    name: BD Letter
+    date: 3 Junho 2025
+    url: https://basedosdados.org/blog/
+  authors:
+  - name: Marina Monteiro
+  - name: Thais Filipi
+  - name: Giovane Caruso
+  - name: José Felix
+
+  paper:
+    summary: A proposta de reduzir a jornada máxima para 36 h semanais alcançaria cerca de 38 milhões de trabalhadores CLT, ou cerca de 89% dos vínculos formais em 2023. Isso reflete a prevalência de contratos de 44 h ou mais, comuns nas escalas tradicionais como a 6×1.
+  url: https://basedosdados.org/blog/bdletter-41-o-fim-da-escala-6-x-1-afetaria-quantas-pessoas
+  categories: ["sociedade"]
+  tags: ["Trabalho", "Jornalismo de Dados", "Sociedade", "Entrevista"]
+
+- title: Qual é a relação entre a dengue e as mudanças climáticas? - BDletter 40
+  publishedIn:
+    name: BD Letter
+    date: 7 Maio 2024
+    url: https://basedosdados.org/blog/
+  authors:
+  - name: Marina Monteiro
+  - name: Giovane Caruso
+
+  paper:
+    summary: O aumento da temperatura e da chuva intensifica a reprodução do mosquito da dengue, tornando a transmissão mais rápida e ampla. Em várias cidades brasileiras, os picos da doença seguem os períodos de calor e precipitação. As mudanças climáticas tendem a agravar esse padrão.
+  url: https://basedosdados.org/blog/bdletter-36-online-vs-offline
+  categories: ["sociedade", "mudancas-climaticas"]
+  tags: ["Saúde", "Mudanças Climáticas", "Jornalismo de Dados", "Sociedade"]
+
+
+- title: Online vs offline. Qual estratégia é a preferida de candidatos das eleições? - BDletter 36
+  publishedIn:
+    name: BD Letter
+    date: 1 Outubro 2024
+    url: https://basedosdados.org/blog/
+  authors:
+  - name: Marina Monteiro
+  - name: Thaís Filipi
+  - name: Giovane Caruso
+  - name: José Felix
+  paper:
+    summary: Em campanhas municipais de 2024, a maior parte dos recursos continuou sendo dirigida às estratégias offline (como panfletagem e mobilização de rua), especialmente em municípios de pequeno e médio porte. Embora o uso de campanhas online (como impulsionamento em redes sociais) tenha crescido desde 2020, ele ainda representa uma parcela pequena do total de gastos eleitorais
+  url: https://basedosdados.org/blog/bdletter-36-online-vs-offline
+  categories: ["sociedade"]
+  tags: ["Política", "Jornalismo de Dados", "Sociedade"]
+
+- title: Qual a relação das chuvas extremas no RS com as mudanças climáticas?
+  publishedIn:
+    name: BD Letter
+    date: 3 Setembro 2024
+    url: https://basedosdados.org/blog/
+  authors:
+  - name: Marina Monteiro
+  - name: Giovane Caruso
+  - name: José Felix
+  paper:
+    summary: O texto aborda os principais desafios na análise de dados meteorológicos no Brasil, destacando a fragmentação e a qualidade insuficiente das bases disponíveis. A climatologista Karina Lima oferece comentários técnicos sobre como esses dados são usados para entender e comprovar a influência humana nos extremos climáticos.
+    url: https://basedosdados.org/blog/analisando-chuvas-no-rio-grande-do-sul
+  categories: ["mudancas-climaticas"]
+  tags: ["Mudanças Climáticas", "Jornalismo de Dados", "Entrevista"]
+
+
+- title: Onde vivem as pessoas que passaram dos 100 anos no Brasil?
+  publishedIn:
+    name: BD Letter
+    date: 1 Abril 2024
+    url: https://basedosdados.org/blog/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: O Censo Demográfico de 2022 — com dados divulgados em junho de 2023 — mostra que o Brasil contava com 37.810 pessoas com 100 anos ou mais, aumento de cerca de 56% em relação a 2010, quando o número era de 24.233. Essas pessoas representam menos de 0,02% da população total do país. A Bahia lidera tanto em termos absolutos quanto na proporção de centenários, com aproximadamente 0,035% da sua população nessa faixa etária
+    url: https://basedosdados.org/blog/analisando-populacao-centenaria
+  categories: ["sociedade"]
+  tags: ["Sociedade", "Jornalismo de Dados", "Centenários"]
+
+
