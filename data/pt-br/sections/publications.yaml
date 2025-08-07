@@ -11,7 +11,7 @@ section:
 # filter buttons
 buttons:
 - name: Todas
-  filter: "todos"
+  filter: "all"
 - name: "Mudanças Climáticas"
   filter: "mudancas-climaticas"
 - name: "Sociedade"
