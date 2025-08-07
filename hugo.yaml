@@ -1,6 +1,6 @@
 baseURL: https://marinamonteiro.com.br
 #
-languageCode: bn
+languageCode: pt-br
 title: "Marina M. M."
 
 # Use Hugo modules to add theme
@@ -20,18 +20,13 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "John's Blog"
+  pt-br:
+    languageCode: pt-br
+    languageName: "Português Brasileiro"
+    title: "Marina M. M."
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: pt-br
 
 
 # Allow raw html in markdown file
@@ -58,7 +53,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/nuvens.jpeg
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 

@@ -1,0 +1,109 @@
+# section information
+section:
+  name: Experiências
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+
+- company:
+    name: Revista Blogs de Ciência
+    url: "https://www.blogs.unicamp.br/"
+    location: Campinas
+    logo: /images/sections/experiences/company3.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: 
+  positions:
+  - designation: Jornalista de ciências
+    start: Jan 2025
+    responsibilities:
+    - Produção de matérias jornalísticas e de divulgação científica sobre ciências.
+
+- company:
+    name: Base dos Dados
+    url: "https://www.blogs.unicamp.br/"
+    location: Campinas
+    logo: /images/sections/experiences/company4.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: 
+  positions:
+  - designation: Jornalista de dados
+    start: Nov 2023
+    responsibilities:
+    - Produção de análises de dados e matérias jornalísticas para newsletter.
+  - designation: Analista Técnica de Formação
+    start: Nov 2023
+    responsibilities:
+    - Produção e execução de cursos e treinamentos.
+    
+  
+
+- company:
+    name: Tortinha de Climão
+    url: "https://dragoesdegaragem.com/tortinhadeclimao/"
+    logo: /images/sections/experiences/company1.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Podcast curto sobre mudanças climáticas, física atmosférica e meio ambiente.
+  positions:
+  - designation: Faz (quase) tudo
+    start: Nov 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Pesquisa de conteúdo
+    - Produção
+    - Roteirização
+    - Locução
+ 
+
+- company:
+    name: Dragões de Garagem
+    url: "https://dragoesdegaragem.com/tortinhadeclimao/"
+    logo: /images/sections/experiences/company2.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Podcast de ciências com equipe com formações variadas e produções em diversas áreas.
+  positions:
+  - designation: Produtora e host
+    start: March 2019
+    responsibilities:
+    - Produção de pautas
+    - Host em gravações
+    - Publicação de episódios
+
+- company:
+    name: Hiperconectado
+    url: "https://www.youtube.com/playlist?list=PL0Qz-covvhxQjGZs6hWPMlRezXu_qdgCF"
+    location: São Paulo
+    logo: /images/sections/experiences/company5.png
+    overview: 
+  positions:
+  - designation: Pesquisadora
+    start: Jul 2022
+    end: Nov 2023
+    responsibilities:
+    - Desenvolvimento de pesquisa sobre temas de interesse para episódios do programa de Hiperconectado na TV Cultura.
+    - Contato com entrevistados
+    
+- company:
+    name: Amerek - Comunicação Pública da Ciência
+    url: "https://amerekpodcast.wordpress.com/"
+    location: São Paulo
+    logo: /images/sections/experiences/company6.png
+    overview: 
+  positions:
+  - designation: Professora da disciplina Oficina de Podcast
+    start: Jul 2022
+    end: Ago 2022
+    responsibilities:
+    - Desenvolvimento do podcast Amerek

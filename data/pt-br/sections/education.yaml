@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Educação
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Mestrado em Ciências - Física Atmosférica
+  icon: fa-microscope
+  timeframe: 2014-2018
+  institution:
+    name: Universidade de São Paulo
+    url: "https://usp.br"
+
+#  publications: #(optional)
+#  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    url: "#"
+    
+- name: Bacharelado em Física
+  icon: fa-graduation-cap
+  timeframe: 2008-2014
+  institution:
+    name: Universidade de São Paulo
+    url: "https://usp.br"
+    #logo: /images/sections/education/university.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  takenCourses: #(optional)
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Jornalismo Científico
+  extracurricularActivities: #(optional)
+  - Iniciação científica em Jornalismo Científico
+
