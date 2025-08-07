@@ -14,8 +14,6 @@ buttons:
   filter: "todos"
 - name: "Mudanças Climáticas"
   filter: "mudancas-climaticas"
-- name: "Tecnologia"
-  filter: "tecnologia"
 - name: "Sociedade"
   filter: "sociedade"
 
@@ -35,10 +33,23 @@ publications:
 
   paper:
     summary: Até agora, o IBGE levantou dados apenas sobre orientação sexual (em 2019 com a PNS), sem coletar informações sobre identidade de gênero nos censos, e os novos módulos de 2023/2024 ainda não têm resultados publicados. Assim, a principal fonte de informações sobre a comunidade LGBTQIAP+ no Brasil hoje vem de pesquisas independentes, ONGs e universidades, com estimativas que variam de 3 milhões (PNS) a mais de 15–20 milhões de pessoas.
-  url: https://basedosdados.org/blog/bdletter-42-onde-estao-os-dados-da-comunidade-lgbtqiap
-  categories: ["sociedade"]
+    url: https://basedosdados.org/blog/bdletter-42-onde-estao-os-dados-da-comunidade-lgbtqiap
+  categories: ["all","sociedade"]
   tags: ["Dados", "Jornalismo de Dados", "Sociedade"]
-  
+
+
+- title: Leilão do fim do mundo
+  publishedIn:
+    name: Tortinha de Climão
+    date: 16 Junho 2025
+    url: https://dragoesdegaragem.com/tortinhadeclimao/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: Com a Juliana Aguilera, conversamos sobre esse leilão prometido pro dia 17/06, que vai dar concessões para exploração de petróleo em 47 blocos do território nacional.
+    url: https://dragoesdegaragem.com/tortinhadeclimao/leilao-do-fim-do-mundo-fofoquinha-de-climao/
+  categories: ["all","sociedade"]
+  tags: ["Petróleo", "Mudanças Climáticas", "Sociedade", "Entrevista"]  
 
 - title: O fim da escala 6x1 afetaria a rotina de quantas pessoas? - BDletter 41
   publishedIn:
@@ -50,17 +61,30 @@ publications:
   - name: Thais Filipi
   - name: Giovane Caruso
   - name: José Felix
-
   paper:
     summary: A proposta de reduzir a jornada máxima para 36 h semanais alcançaria cerca de 38 milhões de trabalhadores CLT, ou cerca de 89% dos vínculos formais em 2023. Isso reflete a prevalência de contratos de 44 h ou mais, comuns nas escalas tradicionais como a 6×1.
-  url: https://basedosdados.org/blog/bdletter-41-o-fim-da-escala-6-x-1-afetaria-quantas-pessoas
-  categories: ["sociedade"]
+    url: https://basedosdados.org/blog/bdletter-41-o-fim-da-escala-6-x-1-afetaria-quantas-pessoas
+  categories: ["all","sociedade"]
   tags: ["Trabalho", "Jornalismo de Dados", "Sociedade", "Entrevista"]
+
+- title: Afrouxaram o Licenciamento Ambiental – Fofoquinha de Climão
+  publishedIn:
+    name: Tortinha de Climão
+    date: 22 Maio 2025
+    url: https://dragoesdegaragem.com/tortinhadeclimao/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: Foi aprovada no senado a PL 2159/2021. Aqui eu apresento o que ela promete, o por quê eu acho ela horrível, e, porque não, deixo transparecer um pouquinho da minha desesperança.
+    url: https://dragoesdegaragem.com/tortinhadeclimao/afrouxaram-o-licenciamento-ambiental-fofoquinha-de-climao/
+  categories: ["all","sociedade", "mudancas-climaticas"]
+  tags: ["Mudanças Climáticas", "Política", "Sociedade"]
+
 
 - title: Qual é a relação entre a dengue e as mudanças climáticas? - BDletter 40
   publishedIn:
     name: BD Letter
-    date: 7 Maio 2024
+    date: 7 Maio 2025
     url: https://basedosdados.org/blog/
   authors:
   - name: Marina Monteiro
@@ -68,10 +92,76 @@ publications:
 
   paper:
     summary: O aumento da temperatura e da chuva intensifica a reprodução do mosquito da dengue, tornando a transmissão mais rápida e ampla. Em várias cidades brasileiras, os picos da doença seguem os períodos de calor e precipitação. As mudanças climáticas tendem a agravar esse padrão.
-  url: https://basedosdados.org/blog/bdletter-36-online-vs-offline
-  categories: ["sociedade", "mudancas-climaticas"]
+    url: https://basedosdados.org/blog/bdletter-36-online-vs-offline
+  categories: ["all","sociedade", "mudancas-climaticas"]
   tags: ["Saúde", "Mudanças Climáticas", "Jornalismo de Dados", "Sociedade"]
 
+- title: Dengue e Clima com Rafael Lopes
+  publishedIn:
+    name: Tortinha de Climão
+    date: 6 Maio 2025
+    url: https://dragoesdegaragem.com/tortinhadeclimao/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: "2024 foi um ano assustador no número de casos de dengue pelo Brasil. E a tendência é termos mais e mais anos desse tipo. Por quê? Venha entender nesse episódio. Entrevisto o Rafael Lopes, físico e epidemiologista, que trabalha no departamento de epidemiologia da Escola de Saúde Pública de Yale, estudando as relações entre dengue e temperatura."
+    url: https://dragoesdegaragem.com/tortinhadeclimao/dengue-e-clima-com-rafael-lopes-tortinha-de-climao-50/
+  categories: ["all", "mudancas-climaticas"]
+  tags: ["Mudanças Climáticas", "Dengue", "Saúde"]
+
+
+- title: Inteligência artificial, impacto real
+  publishedIn:
+    name: Tortinha de Climão
+    date: 9 Abril 2025
+    url: https://dragoesdegaragem.com/tortinhadeclimao/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: "Esse episódio começa a tocar num tema bastante profundo e atual: inteligência artificial. Focamos nas IAs generativas, aquelas que geram textos ou imagens, e falamos de seus impactos ambientais. Junto com este episódio uma promessa: um Dragões de Garagem feat. Tortinha de Climão para falar um pouco mais da relação entre Inteligência Artificial e Ciências Climáticas."
+    url: https://dragoesdegaragem.com/tortinhadeclimao/inteligencia-artificial-impacto-real-tortinha-de-climao-49/
+  categories: ["all", "mudancas-climaticas"]
+  tags: ["Mudanças Climáticas", "Inteligência Artificial"]
+
+
+- title: "COP 30: Cartinha"
+  publishedIn:
+    name: Tortinha de Climão
+    date: 26 Março 2025
+    url: https://dragoesdegaragem.com/tortinhadeclimao/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: Começamos hoje uma nova série, a série COP 30. Esse ano falaremos bastante sobre esse evento que vai ser brasileiríssimo (tão brasileiro que a organização já tá cheia de polêmicas, problemas e loucuras). Começamos com a primeira comunicação do presidente dessa COP para o mundo, a cartinha de 11 páginas que ele liberou no dia 10 de março.
+    url: https://dragoesdegaragem.com/tortinhadeclimao/cop-30-cartinha-tortinha-de-climao-48/
+  categories: ["all", "mudancas-climaticas"]
+  tags: ["Mudanças Climáticas", "COP 30"]
+
+- title: Calor e trabalho
+  publishedIn:
+    name: Tortinha de Climão
+    date: 27 Fevereiro 2025
+    url: https://dragoesdegaragem.com/tortinhadeclimao/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: Voltamos a série Tortinha de Calorão. Hoje nos debruçamos sobre como ondas de calor, e calor extremo, afetam a produtividade e os trabalhadores.
+    url: https://dragoesdegaragem.com/tortinhadeclimao/calor-e-trabalho-tortinha-de-climao-47/
+  categories: ["all", "mudancas-climaticas"]
+  tags: ["Trabalho", "Mudanças Climáticas", "Calor"]
+
+- title: O café tá caro, né, menina?
+  publishedIn:
+    name: Tortinha de Climão
+    date: 11 Fevereiro 2025
+    url: https://dragoesdegaragem.com/tortinhadeclimao/
+  authors:
+  - name: Marina Monteiro
+  paper:
+    summary: Pra quem toma café a situação tá cada vez mais pesada no bolso. O café está atingindo preços nunca antes vistos. Qual o papel das mudanças climáticas? Qual o futuro do café? 
+    url: https://dragoesdegaragem.com/tortinhadeclimao/o-cafe-ta-caro-ne-menina-tortinha-de-climao-46/
+  categories: ["all", "mudancas-climaticas"]
+  tags: ["Café", "Mudanças Climáticas", "Meio Ambiente"]
 
 - title: Online vs offline. Qual estratégia é a preferida de candidatos das eleições? - BDletter 36
   publishedIn:
@@ -85,8 +175,8 @@ publications:
   - name: José Felix
   paper:
     summary: Em campanhas municipais de 2024, a maior parte dos recursos continuou sendo dirigida às estratégias offline (como panfletagem e mobilização de rua), especialmente em municípios de pequeno e médio porte. Embora o uso de campanhas online (como impulsionamento em redes sociais) tenha crescido desde 2020, ele ainda representa uma parcela pequena do total de gastos eleitorais
-  url: https://basedosdados.org/blog/bdletter-36-online-vs-offline
-  categories: ["sociedade"]
+    url: https://basedosdados.org/blog/bdletter-36-online-vs-offline
+  categories: ["all","sociedade"]
   tags: ["Política", "Jornalismo de Dados", "Sociedade"]
 
 - title: Qual a relação das chuvas extremas no RS com as mudanças climáticas?
@@ -101,7 +191,7 @@ publications:
   paper:
     summary: O texto aborda os principais desafios na análise de dados meteorológicos no Brasil, destacando a fragmentação e a qualidade insuficiente das bases disponíveis. A climatologista Karina Lima oferece comentários técnicos sobre como esses dados são usados para entender e comprovar a influência humana nos extremos climáticos.
     url: https://basedosdados.org/blog/analisando-chuvas-no-rio-grande-do-sul
-  categories: ["mudancas-climaticas"]
+  categories: ["all","mudancas-climaticas"]
   tags: ["Mudanças Climáticas", "Jornalismo de Dados", "Entrevista"]
 
 
@@ -115,7 +205,7 @@ publications:
   paper:
     summary: O Censo Demográfico de 2022 — com dados divulgados em junho de 2023 — mostra que o Brasil contava com 37.810 pessoas com 100 anos ou mais, aumento de cerca de 56% em relação a 2010, quando o número era de 24.233. Essas pessoas representam menos de 0,02% da população total do país. A Bahia lidera tanto em termos absolutos quanto na proporção de centenários, com aproximadamente 0,035% da sua população nessa faixa etária
     url: https://basedosdados.org/blog/analisando-populacao-centenaria
-  categories: ["sociedade"]
+  categories: ["all","sociedade"]
   tags: ["Sociedade", "Jornalismo de Dados", "Centenários"]
 
 
